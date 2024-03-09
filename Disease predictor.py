@@ -196,11 +196,6 @@ print(predictDisease("Itching,Skin Rash,Nodal Skin Eruptions"))
 
 
 
-get_ipython().system('pip install joblib')
-import joblib 
-# Save the model as a pickle in a file 
-joblib.dump(best_clf, 'D:\disease.pkl') 
-
 
 
 
